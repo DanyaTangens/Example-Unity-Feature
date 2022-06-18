@@ -8,7 +8,7 @@ namespace DanyaTangens.GameEvents.Events
     {
         private readonly List<IGameEventListener<T>> _eventListeners = new List<IGameEventListener<T>>();
 
-        protected void Raise(T item)
+        public void Raise(T item)
         {
             for (int i = _eventListeners.Count - 1; i >= 0; i--)
             {
