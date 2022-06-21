@@ -1,4 +1,4 @@
-using DanyaTangens.GameEvents.Events;
+using GameEvents.Events;
 using UnityEngine;
 
 namespace GameEvents

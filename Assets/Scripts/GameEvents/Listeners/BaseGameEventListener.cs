@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using DanyaTangens.GameEvents.Events;
+using GameEvents.Events;
 
-namespace DanyaTangens.GameEvents.Listeners
+namespace GameEvents.Listeners
 {
     public abstract class BaseGameEventListener<T, E, UER> : MonoBehaviour,
         IGameEventListener<T> where E : BaseGameEvent<T> where UER : UnityEvent<T>

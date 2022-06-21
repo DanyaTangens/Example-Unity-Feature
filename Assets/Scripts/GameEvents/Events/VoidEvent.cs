@@ -1,7 +1,7 @@
 ﻿using GameEvents.UnityEvents;
 using UnityEngine;
 
-namespace DanyaTangens.GameEvents.Events
+namespace GameEvents.Events
 {
     [CreateAssetMenu(fileName = "New Void Event", menuName = "Game Events/Void Event")]
     public class VoidEvent : BaseGameEvent<Void>

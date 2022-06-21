@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
-using DanyaTangens.GameEvents.Listeners;
+using GameEvents.Listeners;
 
-namespace DanyaTangens.GameEvents.Events
+namespace GameEvents.Events
 {
     public abstract class BaseGameEvent<T> : ScriptableObject
     {

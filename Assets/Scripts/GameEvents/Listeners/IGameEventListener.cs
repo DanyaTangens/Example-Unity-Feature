@@ -1,4 +1,4 @@
-﻿namespace DanyaTangens.GameEvents.Listeners
+﻿namespace GameEvents.Listeners
 {
     public interface IGameEventListener<T>
     {

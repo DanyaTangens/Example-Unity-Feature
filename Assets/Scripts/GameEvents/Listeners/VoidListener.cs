@@ -1,7 +1,7 @@
-﻿using DanyaTangens.GameEvents.Events;
+﻿using GameEvents.Events;
 using GameEvents.UnityEvents;
 
-namespace DanyaTangens.GameEvents.Listeners
+namespace GameEvents.Listeners
 {
     public class VoidListener : BaseGameEventListener<Void, VoidEvent, UnityVoidEvent> { }
 }
